@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="716" name="IoanaTest" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="717" name="REQ-UI-01 Check the title &quot;UI Testing Site&quot; on every page">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[103]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-01 The Title should be &quot;UI Testing Site&quot; on every site</p>
+
+<p>&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+
+<p>Press on web site fn+F12 in order to select an element in the page and inspect it</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the link from Precondition step</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A web application is open</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Go to UI Testing option menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new page is open in the same window</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Right click on UI Testing menu and choose Expect Element option</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Check the title &#39;UI Testing Site&#39; on the &lt;head&gt;/&lt;title&gt; of web page</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click&nbsp;on&nbsp;Home page&nbsp;&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new page is open in the same window</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Go to&nbsp;&lt;head&gt;/&lt;title&gt; of web page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>UI Testing Site text is present between &lt;title&gt;&lt;/title&gt;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click on Form page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new page is open in the same window with the extension pf URL /form.html</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Go to&nbsp;&lt;head&gt;/&lt;title&gt; of web page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>UI Testing Site text is present between &lt;title&gt;&lt;/title&gt;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Click on Error page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new page is open in the same window with the extension of URL /error</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Go to&nbsp;&lt;head&gt;/&lt;title&gt; of web page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>UI Testing Site text is present between &lt;title&gt;&lt;/title&gt;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="728" name="REQ-UI-02 Check the Company Logo on every page">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[104]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-02 The Company Logo should be visible on every site</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to UI&nbsp;Testing page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;The Company Logo(Docler Holding) is present on the&nbsp;site content</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Go to Home page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;The Company Logo(Docler Holding) is present on the&nbsp;site content</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Go to Form page&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;The Company Logo(Docler Holding) is present on the&nbsp;site content</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Go to Error page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;The Company Logo(Docler Holding) is present on the&nbsp;site content</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="734" name="REQ-UI-03 Pressing the Home button it should go to Home page">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[105]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-03 When I click on the Home button, I should get navigated to the Home page</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on Home option from the main menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Check the URL, it should be:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="737" name="REQ-UI-04 Check the active status when the Home page is selected">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[106]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-04 When I click on the Home button, it should turn to active status</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to Home page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new page is open in the same window</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press Fn+F12</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Select Home page from the side&nbsp;in order to inspect it</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Under &lt;dev id=&#39;navbar&#39;&gt;&lt;ul class=&#39;nav navbar-nav&#39;&gt;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Check the active status of page in&nbsp;class attribute&nbsp;of&nbsp;list item</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="742" name="REQ-UI-05 When the Form button is selected, it should get navigated to the Form page">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[107]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-05 When I click on the Form button, I should get navigated to the Form page</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on Form option from the main menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>As a user, I navigate on the&nbsp;<a href="http://uitest.duodecadits.com/form.html">http://uitest.duodecadits.com/form.html</a></p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="745" name="REQ-UI-06 Check the active status when the Form button is selected">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[108]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-06 When I click on the Form button, it should turn to active status</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Go to Form page</p>
+			</td>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>A new page is open in the same window</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press Fn+F12<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Select Form page from the site&nbsp;in order to inspect it</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Under &lt;dev id=&#39;navbar&#39;&gt;&lt;ul class=&#39;nav navbar-nav&#39;&gt;</p>
+			</td>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Check the active status of page in a class attribute of&nbsp;list item</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="750" name="REQ-UI-07 Check the error response code when Error page is selected">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[109]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-07 When I click on the Error button, I should get a 404 HTTP response code</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Select the Error page from the main menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>An error response code with a message is displayed on page: &quot;404 Error: File not found :-(&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="753" name="REQ-UI-08 When the UI Testing button, it should get navigated to the Home page">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[110]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-08 When I click on the UI Testing button, I should get navigated to the Home page</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;the link:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Select UI Testing button from the main menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>As a user you should navigate on page:&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="756" name="REQ-UI-09 Check the following on the Home page'Welcome to the Docler Holding QA Department'">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[111]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-09 The following text should be visible on the Home page in &lt;h1&gt; tag:</p>
+
+<p>&quot;Welcome to the Docler Holding QA Department&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Select Home page from main menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The text &#39;Welcome to the Docler Holding QA Department&#39; with dimension &lt;h1&gt; tag is present on Home page</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="759" name="REQ-UI-10 Check the text on Home page'This site is dedicated to perform some exercises and demonstr'">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[112]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-10 The following text should be visible on the Home page in &lt;p&gt; tag:</p>
+
+<p>&quot;This site is dedicated to perform some exercises and demonstrate automated web testing.&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to Home page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The following text is displayed on Home page&#39; This site is dedicated to perform some exercises and demonstrate automated web testing.&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="762" name="REQ-UI-11 Check the present of input box and submit button on Form page">
+	<node_order><![CDATA[1010]]></node_order>
+	<externalid><![CDATA[113]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-11 On the Form page, a form should be visible with one input box and one submit button</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please access the link&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a></p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Select the Form Page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new page is open on the same window and has the extension&nbsp;of URL /form</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>In the content of the page there are an input box and a submit button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The element input box and submit button are side by side</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="766" name="REQ-UI-12 Check the functionality of input field and submit button">
+	<node_order><![CDATA[1011]]></node_order>
+	<externalid><![CDATA[114]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>REQ-UI-12</p>
+
+<p>On the Form page, if you type &lt;value&gt; the input field and submit the form, you should get redirect to the<br />
+Hello page, and the following text should appear: &lt;result&gt;<br />
+&lt;value&gt; | &lt;result&gt;<br />
+============================<br />
+John | Hello John!<br />
+Sophia | Hello Sophia!<br />
+Charlie | Hello Charlie!<br />
+Emily | Hello Emily!</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Please take in consideration&nbsp;<a href="http://uitest.duodecadits.com/">http://uitest.duodecadits.com/</a>&nbsp;web site</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Select Form page from main menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successfully selected the Form page</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Please type John on input field</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new page is open, the extension&nbsp;of the URL is /hello and the message dispayed is Hello John!</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Go back to Form Page and type Sophia in input field</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The message displayed&nbsp;on hello page is Hello Sophia!</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Go back on Form page and type Charlie in input field</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The message displayed on hello page is Hello Charlie!</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Go back to Form page and type Emily in input box</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The message displayed on hello page is Hello Emily!</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Go back to Form page and let the input field empty</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The message displayed on hello page os Hello!</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
